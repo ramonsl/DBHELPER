@@ -28,6 +28,7 @@ public class HabitsDbHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_TABLE_HABIT);
     }
 
+    
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         //Não ficou claro oque era pra fazer aqui, visto que não tenho uma outra versao do banco.
